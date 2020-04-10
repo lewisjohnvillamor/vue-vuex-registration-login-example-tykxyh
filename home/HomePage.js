@@ -19,6 +19,15 @@ export default {
             <p>
                 <router-link to="/login">Logout</router-link>
             </p>
+            <p>   
+                <router-link to="/eventsubmission">Event Submission</router-link>
+            </p>
+            <p>   
+                <router-link to="/eventenquiry">Event Enquiry</router-link>
+            </p>
+            <p>   
+                <router-link to="/bookingenquiry">Booking Enquiry</router-link>
+            </p>
         </div>
     `,
     computed: {

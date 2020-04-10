@@ -3,14 +3,16 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "@handsontable/vue": "^4.1.1",
+    "config": "1.30.0",
     "fs": "0.0.2",
+    "handsontable": "7.4.2",
     "os": "0.1.1",
-    "vue": "2.5.16",
     "path": "0.12.7",
     "util": "0.11.0",
-    "vuex": "3.0.1",
-    "config": "1.30.0",
+    "vee-validate": "2.0.9",
+    "vue": "2.5.16",
     "vue-router": "3.0.1",
-    "vee-validate": "2.0.9"
+    "vuex": "3.0.1"
   }
 }

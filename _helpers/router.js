@@ -4,6 +4,9 @@ import Router from 'vue-router';
 import HomePage from '../home/HomePage'
 import LoginPage from '../login/LoginPage'
 import RegisterPage from '../register/RegisterPage'
+import EventenquiryPage from '../eventenquiry/EventenquiryPage'
+import EventsubmissionPage from '../eventsubmission/EventsubmissionPage'
+import BookingenquiryPage from '../bookingenquiry/BookingenquiryPage'
 
 Vue.use(Router);
 
@@ -13,6 +16,9 @@ export const router = new Router({
     { path: '/', component: HomePage },
     { path: '/login', component: LoginPage },
     { path: '/register', component: RegisterPage },
+    { path: '/eventenquiry', component: EventenquiryPage },
+    { path: '/bookingenquiry', component: BookingenquiryPage },
+    { path: '/eventsubmission', component: EventsubmissionPage },
 
     // otherwise redirect to home
     { path: '*', redirect: '/' }
